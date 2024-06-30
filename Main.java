@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("PGO 7 collection - s29829 - Jacek K");
         System.out.println("\nZadanie 02");
         zadanie02();
 
@@ -23,12 +22,12 @@ public class Main {
 
     private static void zadanie02() {
         ArrayList<Item> zad2Item = new ArrayList<>();
-        zad2Item.add(new Item("10345", "Spoon steel"));
-        zad2Item.add(new Item("10256", "Spoon silver"));
-        zad2Item.add(new Item("20056", "Plate white"));
-        zad2Item.add(new Item("20077", "Big plate white"));
-        zad2Item.add(new Item("51123", "Pho soup"));
-        zad2Item.add(new Item("40087", "Chicken with rice"));
+        zad2Item.add(new Item("10345", "door"));
+        zad2Item.add(new Item("10256", "window"));
+        zad2Item.add(new Item("20056", "panel"));
+        zad2Item.add(new Item("20077", "fridge"));
+        zad2Item.add(new Item("51123", "oven"));
+        zad2Item.add(new Item("40087", "chair"));
 
         System.out.println("\nMethod show()");
         for (Item item : zad2Item) {
